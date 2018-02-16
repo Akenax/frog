@@ -1,5 +1,16 @@
-public class nenuphar{
-	final int tailleJeu=10;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package frogger;
+
+/**
+ *
+ * @author aurélien
+ */
+public class nenuphar {
+    final int tailleJeu=10;
 	int tab[]=new int[tailleJeu];
 	
 	int ecart;		//ecart entre les nenuphar
@@ -23,6 +34,4 @@ public class nenuphar{
 		s+="\n";
 		return s;
 	}
-
-
 }
